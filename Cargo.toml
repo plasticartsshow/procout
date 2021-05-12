@@ -7,6 +7,7 @@ description = "Output a proc macro's TokenStream to a file."
 keywords = ["dev", "proc", "macro", "print", "debug"]
 categories = ["development-tools::debugging", "development-tools::procedural-macro-helpers", "development-tools::testing", ]
 license = "MIT"
+repository = "https://github.com/plasticartsshow/procout"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
