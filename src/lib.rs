@@ -1,7 +1,7 @@
-//! __What:__ It prints the output of a _procedural_ macro to a file. 
+//! __What:__ It prints the output of a _procedural_ macro to a file.  
 //! __Wherefore:__ To ease debugging by clarifying the source  of errors with explicit line numbers instead of the unavoidably opaque errors often produced when debugging 
-//! procedural macros in Rust. 
-//! __Whereby:__ Add a function call to your proc macro and use the command-line feature. 
+//! procedural macros in Rust.  
+//! __Whereby:__ Add a function call to your proc macro and use the command-line feature.   
 //!
 //! This depends on the procedural macro _compiling_ to code. If it's not at the stage where it compiles, 
 //! it has to get there before this will produce useful output.
@@ -59,7 +59,7 @@
 //! feature, it's possible to run something like `cargo test --test module_ident` and get better errors 
 //! from the compiler. 
 //!
-//! Now with these splendid _new_ capabilities:  
+//! ### Now with these splendid _new_ capabilities:  
 //! - A unit test module will be generated with a no-op test that just imports the module named in `module_ident`.
 //! - `module_ident` should be the name of a generated module.
 //! - If no path is specified, the default path will be the current working directory's `tests` subfolder,
