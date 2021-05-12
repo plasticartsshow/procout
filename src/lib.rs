@@ -1,4 +1,3 @@
-//! # procout 
 //! __What:__ It prints the output of a _procedural_ macro to a file. 
 //! __Wherefore:__ To ease debugging by clarifying the source  of errors with explicit line numbers instead of the unavoidably opaque errors often produced when debugging 
 //! procedural macros in Rust. 
@@ -54,14 +53,13 @@
 //! }
 //! ```
 //!
-//! Now, when calling something like `cargo test --features procout`
-//!
-//! The code will print to the `a/valid/path/string` specified as a file corresponding to `module_ident`.
+//! By calling `cargo test --features procout`, the code will print
+//! to the `a/valid/path/string` specified as a file corresponding to `module_ident`.
 //! By default, the path string is the local `tests` directory, so __after__ the first run using the `procout`
 //! feature, it's possible to run something like `cargo test --test module_ident` and get better errors 
 //! from the compiler. 
 //!
-//! Now with these splendid features:  
+//! Now with these splendid _new_ capabilities:  
 //! - A unit test module will be generated with a no-op test that just imports the module named in `module_ident`.
 //! - `module_ident` should be the name of a generated module.
 //! - If no path is specified, the default path will be the current working directory's `tests` subfolder,

@@ -1,10 +1,10 @@
 [package]
 name = "procout"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Plastic Arts Show <plastic.arts.show@gmail.com>"]
 edition = "2018"
 description = "Output a proc macro's TokenStream to a file."
-keywords = ["dev", "proc", "macro"]
+keywords = ["dev", "proc", "macro", "print", "debug"]
 categories = ["development-tools::debugging", "development-tools::procedural-macro-helpers", "development-tools::testing", ]
 license = "MIT"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
