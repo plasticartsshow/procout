@@ -1,7 +1,7 @@
-//! __What:__ It prints the output of a _procedural_ macro to a file.  
-//! __Wherefore:__ To ease debugging by clarifying the source  of errors with explicit line numbers instead of the unavoidably opaque errors often produced when debugging 
+//! - __What:__ It prints the output of a _procedural_ macro to a file.  
+//! - __Wherefore:__ To ease debugging by clarifying the source  of errors with explicit line numbers instead of the unavoidably opaque errors often produced when debugging 
 //! procedural macros in Rust.  
-//! __Whereby:__ Add a function call to your proc macro and use the command-line feature.   
+//! - __Whereby:__ Add a function call to your proc macro and use the command-line feature.   
 //!
 //! This depends on the procedural macro _compiling_ to code. If it's not at the stage where it compiles, 
 //! it has to get there before this will produce useful output.
