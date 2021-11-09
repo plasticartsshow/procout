@@ -1,6 +1,6 @@
 [package]
 name = "procout"
-version = "0.1.12"
+version = "0.1.13"
 authors = ["Plastic Arts Show <plastic.arts.show@gmail.com>"]
 edition = "2018"
 description = "Output a proc macro's TokenStream to a file."

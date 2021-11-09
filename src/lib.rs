@@ -170,6 +170,7 @@ pub fn procout(
       quote!{
         #code_block
         #[test]
+        #[allow(unused)]
         fn macro_test() {
           use #module_ident::*;
         }
